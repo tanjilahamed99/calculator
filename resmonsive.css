@@ -1,0 +1,50 @@
+@media screen and (max-width:600px){
+    .container
+{
+    justify-content: center;
+    display: flex;
+    margin: 200px auto;
+    border: 2px solid cadetblue;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+}
+input{
+    padding: 5px;
+    margin: 0px;
+    font-size: 2rem;
+    width: 22%;
+    height: 20%;
+    border: none;
+    background-color: tan;
+}
+.display input{
+    width: 86%;
+    margin-left: 7px;
+}
+}
+@media screen and (max-width:400px){
+    .container
+{
+    justify-content: center;
+    display: flex;
+    margin: 200px auto;
+    border: 2px solid cadetblue;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+}
+input{
+    padding: 5px;
+    margin: 0px;
+    font-size: 1.5rem;
+    width: 22%;
+    height: 20%;
+    border: none;
+    background-color: tan;
+}
+.display input{
+    width: 86%;
+    margin-left: 7px;
+}
+}
